@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: b9a910101d7efe94cb6134f151a07d8d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5da125429a9014ca6418afd23dc41e
+      internalID: 2142956612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 768
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78a1c47e2cc32140a1d79b8c65b774a
+      internalID: -1507858178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 768
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42980672213bc13428fc83736a4c43f7
+      internalID: -1680438598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 768
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4174dc711f4c14ea70a58111327beb
+      internalID: -1273519076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 768
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e1f599adaac0b4e99e87d9935defa2
+      internalID: -1164757304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9ab2f6a7790b4985b0b0431161165
+      internalID: -1974038113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 512
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec4f0f27e106bd4fa6cbc9d25e75a59
+      internalID: -1085851464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 512
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e186c92d3d96544a79ff423c7dcacd
+      internalID: -2082399253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 512
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cc6d1bb4a9be54db04a02832ba04a7
+      internalID: -1038580884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 512
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d8f4dbb03b3464db835e34c9cafce1
+      internalID: 1350444692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a75f56bf5eadec468fa7f56b5cf1c21
+      internalID: -1905664814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 256
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870019f9ad7d529479826f60b5e3ffa3
+      internalID: -1297199566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 256
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891046e260a2a0249a415d8fb6ba7c53
+      internalID: 2131304488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 256
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f53362e6d4b140add9855533968c9
+      internalID: -1150610947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 256
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac73d2ea03a46a34e93d3dc7a04b4eb1
+      internalID: -635517106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d060db43e51594eab4adf3ad96deed
+      internalID: -1645317185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f244d176ea52e874eb9d7bef69fc2cf6
+      internalID: 446767613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Heal_Deflagration_ATLAS #645587_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 204
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc95c9ee651ee41ad92d9c64ea442b
+      internalID: -604720376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FX_Heal_Deflagration_ATLAS #645587_0: 2142956612
+      FX_Heal_Deflagration_ATLAS #645587_1: -1507858178
+      FX_Heal_Deflagration_ATLAS #645587_10: -1905664814
+      FX_Heal_Deflagration_ATLAS #645587_11: -1297199566
+      FX_Heal_Deflagration_ATLAS #645587_12: 2131304488
+      FX_Heal_Deflagration_ATLAS #645587_13: -1150610947
+      FX_Heal_Deflagration_ATLAS #645587_14: -635517106
+      FX_Heal_Deflagration_ATLAS #645587_15: -1645317185
+      FX_Heal_Deflagration_ATLAS #645587_16: 446767613
+      FX_Heal_Deflagration_ATLAS #645587_17: -604720376
+      FX_Heal_Deflagration_ATLAS #645587_2: -1680438598
+      FX_Heal_Deflagration_ATLAS #645587_3: -1273519076
+      FX_Heal_Deflagration_ATLAS #645587_4: -1164757304
+      FX_Heal_Deflagration_ATLAS #645587_5: -1974038113
+      FX_Heal_Deflagration_ATLAS #645587_6: -1085851464
+      FX_Heal_Deflagration_ATLAS #645587_7: -2082399253
+      FX_Heal_Deflagration_ATLAS #645587_8: -1038580884
+      FX_Heal_Deflagration_ATLAS #645587_9: 1350444692
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a175b49d8fe4b849be11191a2a712ef, type: 3}
+  m_Name: Scythe
+  m_EditorClassIdentifier: 
+  moveAction1:
+    skill: {fileID: 11400000, guid: 8d03f79c3d830b3449e3c67872c3e860, type: 2}
+    coolTime: 0.1
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: 97c068b302368f24d98f72f8de0df9cc, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: 495f31976f46bb040b10a7a11ac4ead8, type: 2}
+    - {fileID: 7400000, guid: 7c86be6876b9568499db638a76676fd4, type: 2}
+    - {fileID: 7400000, guid: 2e6ca9feb81217c40a9539b5e46fb3d9, type: 2}
+    - {fileID: 7400000, guid: 8da800a54f9d7734aa6938b37715528c, type: 2}
+    - {fileID: 7400000, guid: 61c8e4dea0cb2f3418d8d1ddad228de5, type: 2}
+    - {fileID: 7400000, guid: c826f230ea51dbd4d82d69b4e5bbc8fa, type: 2}
+    - {fileID: 7400000, guid: 1086ebed10acb9a41863729a0404011f, type: 2}
+    - {fileID: 7400000, guid: 579e7c955c7ab054db9cb69065691b0e, type: 2}
+    - {fileID: 7400000, guid: d09ce7d82b452c648b92a186830e191d, type: 2}
+  moveAction2:
+    skill: {fileID: 11400000, guid: be9d7eb3baf6563448b01e852edbf2b9, type: 2}
+    coolTime: 0.3
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: e4277ce6afc742e4a803a230da30f045, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: 365c377345a5e6e45a11c4c0cda796f4, type: 2}
+  moveAction3:
+    skill: {fileID: 11400000, guid: 87565e9eedba1f54e806eeb8709d45bc, type: 2}
+    coolTime: 0.3
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: 9443a4b997d426b49863497c67d8f718, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: 8fcce7e6c798a86459b2820ed6e0ec71, type: 2}
+  moveAction4:
+    skill: {fileID: 11400000, guid: 95f3f58632e61c94784680cfec7611e1, type: 2}
+    coolTime: 0.2
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: fe93ca68412fe754dad52b86f0a73a51, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: 7e563f1ccdce77345b2f6e1414ebf8d5, type: 2}
+  standAction1:
+    skill: {fileID: 11400000, guid: e72087e40f8ecfa4baa7cc5f74812629, type: 2}
+    coolTime: 0.1
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: b1ae805bee855254a922e243fcea9494, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: a3be67727dbe26945b83e21d6b99ffca, type: 2}
+    - {fileID: 7400000, guid: 2a66cc0c8ff5b684bb773ad6f5e57764, type: 2}
+    - {fileID: 7400000, guid: 8da800a54f9d7734aa6938b37715528c, type: 2}
+    - {fileID: 7400000, guid: d09ce7d82b452c648b92a186830e191d, type: 2}
+  standAction2:
+    skill: {fileID: 11400000, guid: 479f04563c3f53a4b8c6f632258caf1f, type: 2}
+    coolTime: 0.3
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: 927d776ed9a5db34b98c60fac5d2cd1c, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: a9a7e1368fac0ea4eae5ac5a5731a9db, type: 2}
+  standAction3:
+    skill: {fileID: 11400000, guid: 841532ecf9fdfec4b9009ecc6a4d1a22, type: 2}
+    coolTime: 0.3
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: 9a30de469af749f4a99807dd03b920eb, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: 365c377345a5e6e45a11c4c0cda796f4, type: 2}
+  upAction:
+    skill: {fileID: 11400000, guid: b010a73c14f8e9f4785be5727c124ece, type: 2}
+    coolTime: 0.4
+    tags:
+    - Enemy
+    animatorHandler: {fileID: 11400000, guid: d16ebc8f1aac8e04a94186a59c3e6920, type: 2}
+    essentialClips:
+    - {fileID: 7400000, guid: 495f31976f46bb040b10a7a11ac4ead8, type: 2}
+    - {fileID: 7400000, guid: 7c86be6876b9568499db638a76676fd4, type: 2}
+    - {fileID: 7400000, guid: 2e6ca9feb81217c40a9539b5e46fb3d9, type: 2}
+    - {fileID: 7400000, guid: a3be67727dbe26945b83e21d6b99ffca, type: 2}
+    - {fileID: 7400000, guid: 8da800a54f9d7734aa6938b37715528c, type: 2}
+    - {fileID: 7400000, guid: 2a66cc0c8ff5b684bb773ad6f5e57764, type: 2}
+    - {fileID: 7400000, guid: 61c8e4dea0cb2f3418d8d1ddad228de5, type: 2}
+    - {fileID: 7400000, guid: c826f230ea51dbd4d82d69b4e5bbc8fa, type: 2}
+    - {fileID: 7400000, guid: 1086ebed10acb9a41863729a0404011f, type: 2}
+    - {fileID: 7400000, guid: 579e7c955c7ab054db9cb69065691b0e, type: 2}
