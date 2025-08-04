@@ -27,14 +27,13 @@ public class DialogueUI : MonoBehaviour
     GameObject introParent;
     GameObject outroParent;
 
-    char[] dialogueChar;
-
     int spaceBarNum;
     int charLength;
     int charIndex;
     int diaIndexLength;
 
     string currentSpeaker;
+    string currentDialogue;
 
     float textElapsedTime;
 
@@ -147,32 +146,37 @@ public class DialogueUI : MonoBehaviour
 
     void SaveDialogue(int dialogueIndex)
     {
-        if(dialogueIndex < dialogues.Length)
-        {
-            int length = dialogues[dialogueIndex].dialogue.Length;
-            charLength = length;
-            dialogueChar = new char[length];
+        //if(dialogueIndex < dialogues.Length)
+        //{
+        //    int length = dialogues[dialogueIndex].dialogue.Length;
+        //    charLength = length;
+        //    dialogueChar = new char[length];
 
-            int num = 0;
+        //    int num = 0;
 
-            foreach (char c in dialogues[dialogueIndex].dialogue)
-            {
-                dialogueChar[num] = c;
-                num++;
-            }
-        }
+        //    foreach (char c in dialogues[dialogueIndex].dialogue)
+        //    {
+        //        dialogueChar[num] = c;
+        //        num++;
+        //    }
+        //}
+
+        currentDialogue = dialogues[dialogueIndex].dialogue;
+        charLength = currentDialogue.Length;
+
+        SpeakerText.text = dialogues[dialogueIndex].character;
     }
 
-    void PrintDialogue(int charIndex, int dialogueIndex)
+    void PrintDialogue(int startIndex, int dialogueIndex)
     {
-        if (charIndex < charLength)
+        if (startIndex < charLength)
         {
-            if (charIndex == 27)
+            if (startIndex == 27)
             {
                 dialogueBuilder.AppendLine();
             }
 
-            dialogueBuilder.Append(dialogueChar[charIndex]);
+            dialogueBuilder.Append(currentDialogue[startIndex]);
             DialogueText.text = dialogueBuilder.ToString();
 
             isAllOut = false;
@@ -183,15 +187,15 @@ public class DialogueUI : MonoBehaviour
         }
     }
 
-    void PrintAllDialogue(int charIndex)
+    void PrintAllDialogue(int startIndex)
     {
-        for(int i=charIndex; i< dialogueChar.Length; i++)
+        for(int i= startIndex; i< currentDialogue.Length; i++)
         {
             if (i == 27 || i == 54)
             {
                 dialogueBuilder.AppendLine();
             }
-            dialogueBuilder.Append(dialogueChar[i]);
+            dialogueBuilder.Append(currentDialogue[i]);
         }
         DialogueText.text = dialogueBuilder.ToString();
         isAllOut = true;
