@@ -146,21 +146,6 @@ public class DialogueUI : MonoBehaviour
 
     void SaveDialogue(int dialogueIndex)
     {
-        //if(dialogueIndex < dialogues.Length)
-        //{
-        //    int length = dialogues[dialogueIndex].dialogue.Length;
-        //    charLength = length;
-        //    dialogueChar = new char[length];
-
-        //    int num = 0;
-
-        //    foreach (char c in dialogues[dialogueIndex].dialogue)
-        //    {
-        //        dialogueChar[num] = c;
-        //        num++;
-        //    }
-        //}
-
         currentDialogue = dialogues[dialogueIndex].dialogue;
         charLength = currentDialogue.Length;
 
