@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -41,6 +42,8 @@ public class DialogueUI : MonoBehaviour
     bool isConversationEnd;
     bool isIntro;
 
+    StringBuilder dialogueBuilder;
+
     public bool ConverationEnd
     {
         get
@@ -75,6 +78,8 @@ public class DialogueUI : MonoBehaviour
         introParent = transform.GetChild(1).gameObject;
         outroParent = transform.GetChild(2).gameObject;
         outroParent.SetActive(false);
+
+        dialogueBuilder = new StringBuilder();
     }
 
     void Update()
@@ -128,6 +133,7 @@ public class DialogueUI : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 DialogueText.text = string.Empty;
+                dialogueBuilder.Clear();
                 charIndex = 0;
                 textElapsedTime = 0;
                 spaceBarNum++;
@@ -163,9 +169,12 @@ public class DialogueUI : MonoBehaviour
         {
             if (charIndex == 27)
             {
-                DialogueText.text += "\n";
+                dialogueBuilder.AppendLine();
             }
-            DialogueText.text += dialogueChar[charIndex].ToString();
+
+            dialogueBuilder.Append(dialogueChar[charIndex]);
+            DialogueText.text = dialogueBuilder.ToString();
+
             isAllOut = false;
         }
         else
@@ -180,10 +189,11 @@ public class DialogueUI : MonoBehaviour
         {
             if (i == 27 || i == 54)
             {
-                DialogueText.text += "\n";
+                dialogueBuilder.AppendLine();
             }
-            DialogueText.text += dialogueChar[i].ToString();
+            dialogueBuilder.Append(dialogueChar[i]);
         }
+        DialogueText.text = dialogueBuilder.ToString();
         isAllOut = true;
     }
 
